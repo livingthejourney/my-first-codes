@@ -7,7 +7,7 @@ public class Main
 	System.out.print("n: ");
 	n = kb.nextInt();
 	 
-	for (i = 1; i < n; i = i + 1)
+	for (i = 1; i <= n; i = i + 1)
 	    System.out.print(i + " ");
 	}
 }
