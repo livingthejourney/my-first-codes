@@ -21,7 +21,23 @@ public class Main
 	        System.out.print(y + " sayısı en büyük");
 	    else
 	        System.out.print(z + " sayısı en büyük");
-	        
+	 /*       
+	java.util.Scanner kb = new java.util.Scanner(System.in);
+	int x,y,z,max;
+	System.out.print("1. sayıyı giriniz: ");
+	x = kb.nextInt();
+	System.out.print("2. sayıyı giriniz: ");
+	y = kb.nextInt();
+	System.out.print("3. sayıyı giriniz: ");
+	z = kb.nextInt();
+	
+    max = x;
+    
+    if (y > max)
+        max = y;
+    if (z > max)
+        max = z;
+    System.out.print(max);  */
 	
     /* 
     java.util.Scanner kb = new java.util.Scanner(System.in);
