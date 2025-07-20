@@ -1,12 +1,10 @@
 public class Main
 {
 	public static void main(String[] args) {
-	//1'den 10'a kadar olan sayıları ekrana yazdıran program.
-	
+	//20'den küçük pozitif tam sayıları ekrana yazdıran program.
 	int i;
-	
-	for (i = 1; i <=10; i = i + 1)
+	for (i = 0; i < 20; i = i + 2)
 	    System.out.print(i + " ");
-	    
+
 	}
 }
